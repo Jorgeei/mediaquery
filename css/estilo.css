@@ -1,0 +1,212 @@
+body{
+    padding-top: 2vh;
+}
+
+#contenedorGeneral{
+    max-width: 900px;
+    padding-top: 10px;
+}
+
+#Titulo{
+    background-color: #dcedab;
+    border-radius: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Kanit', Cooper Black;
+    font-size: 3.5em;
+    margin: 0;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Kanit', Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    margin: 0;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Kanit', Cooper Black;
+    text-indent: 4.5em;
+    font-size: 3.5em;
+}
+
+#imgCatdog{
+    width: 220px;
+    margin: 10px;
+    float: right;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+#barraMenu{
+    background-color: #20daac;
+    border-radius: 0 0 10px 10px;
+}
+
+.vl{
+    border-left: 3px solid rgb(250, 252, 251);
+    height: 50px;
+}
+
+.navbar-light .navbar-brand{
+    color: #fff;
+    cursor: pointer;
+}
+
+#contenido{
+    background-color: #1dc0be;
+    border-radius: 15px;
+    padding-top: 10px;
+    width: 518px;
+}
+
+#Seccion{
+    margin: 0.7em auto;
+    padding: 0;
+}
+
+hr.new5{
+    height: 10px;
+    background-color: white;
+}
+
+#imgFoto{
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#formulario{
+    border-radius: 15px;
+    background: #1f96d7;
+    padding: 10px;
+    margin-left: 1.7em;
+}
+
+#formTitulo{
+    margin: 0 0 0 10px;
+    background: rgb(245, 245, 245);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0 40px 0;
+}
+
+#formulario h1{
+    font-family: 'Kanit', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(3, 4, 5);
+}
+
+#formulario label{
+    display: block;
+    font-weight: bold;
+    text-align: right;
+    width: 80px;
+    float: left;
+}
+
+#formulario input{
+    float: left;
+    font-size: 12px;
+    padding: 4px 2px;
+    border: solid 1px #708090;
+    width: 200px;
+    margin: 2px 0 20px 10px;
+}
+
+#formulario button{
+    clear: both;
+    margin: 0 auto;
+    display: flex;
+    height: 31px;
+    background: #a5a2a2;
+    text-align: center;
+    line-height: 31px;
+    color: rgb(20, 20, 20);
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#piedepagina{
+    margin: 0.1em auto;
+    padding-top: 10px;
+    background-color: #20daac;
+    border-radius: 0 0 10px 10px;
+}
+
+#piedepagina{
+    color: aliceblue;
+    text-align: center;
+}
+
+.toggle{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+    #contenedorGeneral{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 2.2em;
+    }
+
+    h2{
+        font-size: 1.3em;
+    }
+
+    h3{
+        text-indent: 2.5em;
+        font-size: 2.2em;
+    }
+
+    #imgCatdog{
+        width: 80%;
+        display: flex;
+    }
+
+
+    #formulario{
+        margin:auto;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    #Titulo{
+        overflow: hidden;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .vl{
+        height: 0px;
+    }
+    #contenido{
+        margin:0px;
+    }
+
+    #imgFoto{
+        width: 50%;
+        height: auto
+    }
+
+
+
+
+}
